@@ -1,0 +1,311 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+}
+.block {
+   display: flex;
+   /* background-color: bisque; */
+   height: 116px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.log {
+   margin-left: 80px;
+}
+
+.knopki {
+   display: flex;
+   width: 30%;
+   justify-content: space-between;
+
+
+}
+
+.knop1 a,
+.knop2 a,
+.knop3 a,
+.knop4 a {
+
+   width: 20%;
+   text-decoration: none;
+   color: black;
+}
+
+.butt {
+   border: 1px solid #F7941E;
+   width: 150px;
+   height: 44px;
+   color: #F7941E;
+   background-color: transparent;
+
+}
+.block55{
+   display: flex;
+
+}
+
+.podblock{
+   width: 50%;
+
+   background-color: #f1f1f2;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   
+}
+/* .podblock1{
+   height: 433px;
+   width: ;
+} */
+.penoblock{
+   width: 50%;
+
+}
+.penoblock img{
+   width: 100%;
+   height: 100%;
+}
+.textblock{
+   height: 411px;
+   width: 433px;
+}
+.button{
+   width: 200px;
+   height: 60px;
+   background-color: #F7941E;
+   border-radius: 5px;
+  border: none;
+   font-size: 18px;
+   margin-top: 15%;
+   color: #f1f1f2;
+}
+.textblock h1{
+   font-size: 56px;
+}
+.textblock p{
+   font-size: 20px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hom{
+   width: 400px;
+}
+.block555 {
+   display: flex;
+   flex-direction: row-reverse;
+}
+.button1 {
+   width: 200px;
+   height: 60px;
+   background-color:transparent;
+   border-radius: 5px;
+   border: 1px solid #F7941E;
+   font-size: 18px;
+   margin-top: 15%;
+   color: #F7941E;
+}
+
+.gifts {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 39px;
+
+}
+.flex{
+   display: flex;
+   justify-content: center;
+ 
+}
+.cards{
+   display: flex;
+   justify-content: center;
+   /* justify-content: space-evenly; */
+   margin-bottom: 137px;
+   
+  
+}
+.card{
+   box-shadow: 0px 10px 15px;
+ margin-right: 20px;
+}
+.comment{
+   margin-left: 10px;
+
+}
+.comment h5{
+   margin-bottom: 74px;
+}
+.a {
+   margin-bottom: 20px;
+}
+.comment a{
+   text-decoration: none;
+   color: black;
+   
+}
+.oreng{
+display: flex;
+height: 240px;
+align-items: center;
+background-color: #F7941E;
+text-align: center;
+
+
+}
+
+.ready{
+   width: 50%;
+   
+}
+.block555 p{
+   font-size: 20px
+}
+.block555 h1{
+   font-size: 32px;
+}
+.knopka22{
+   display: flex;
+   width: 50%;
+}
+.butt1{
+   background-color: black;
+   color: #f1f1f2;
+   width: 200px;
+   height: 48px;
+   border-radius: 10px;
+   margin-left: 229px;
+   
+}
+.butt2{
+   background-color: #F7941E;
+   color: black;
+   width: 200px;
+   height: 48px;
+   margin-left: 16px;
+   border-radius:10px;
+
+   margin-right: 235px;
+   
+}
+.OUR{
+   text-align: center;
+}
+.rodblock{
+   display: flex;
+justify-content: center;
+
+   width: 1170px;
+   color: #ffff;
+   background-color:#231F20 ;
+
+}
+.dochblock{
+
+display: flex;
+justify-content: center;
+}
+.theblock p :nth-child(1){
+   font-size: 14px;
+   
+
+}
+
+.theblock{
+   margin-left: 79px;
+ display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+
+}
+.container{
+   display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   width: 100%;
+}
+
+.databas h2{
+   font-size: 24px;
+}
+.databas{
+   display: flex;
+justify-content: space-between;
+width: 1170px;
+
+}
+.databas p{
+   font-size: 18px;
+}
+.databas a{
+   font-size: 14px;
+}
+
+.zagalovk{
+
+width: 45%;
+
+}
+
+.container7 {
+   display: flex;
+   justify-content: center;
+   
+}
+.zagalovk{
+   box-shadow: 0px 5px 5px rgb(82, 80, 80);
+}
+.rodbloc1 {
+   display: flex;
+   justify-content: center;
+}
+.container7 {
+   margin-top: 40px;
+}
+.zagalovk h2 {
+   margin-left: 15px;
+}
+.zagalovk p {
+   margin-left: 15px;
+   font-size: 18px;
+}
+.zagalovk button {
+   background-color: transparent;
+   margin: 16px 0px 25px 15px;
+   border: none;
+   font-size: 14px;
+}
+.foot{
+   display: flex;
+ justify-content: center;
+ padding: 5%;
+ flex-direction: column;
+ align-items: center;
+}
+.lastblock{
+   display: flex;
+   justify-content: center;
+   margin-top: 115px;
+   
+   
+   
+}
+.s1{
+   margin-right: 30%;
+   text-decoration: none;
+}
+.siz{
+   border: 1px solid grey;
+   width: 1000px;
+   margin-bottom: 55px;
+   margin-top: 55px;
+}
+.foooot{
+   display: flex;
+
+}
+.foooot p{
+   margin-right: 14px;
+   margin-top: 72px;
+}
