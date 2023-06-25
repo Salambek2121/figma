@@ -15,8 +15,9 @@ body{
 
 .knopki {
    display: flex;
-   width: 30%;
+   width: 501px;
    justify-content: space-between;
+
 
 
 }
@@ -37,7 +38,9 @@ body{
    height: 44px;
    color: #F7941E;
    background-color: transparent;
-
+   margin-right: 30px;
+border-radius: 4px;
+text-decoration: none;
 }
 .block55{
    display: flex;
@@ -87,9 +90,7 @@ body{
    font-size: 20px;
    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.hom{
-   width: 400px;
-}
+
 .block555 {
    display: flex;
    flex-direction: row-reverse;
@@ -174,7 +175,7 @@ text-align: center;
    width: 200px;
    height: 48px;
    border-radius: 10px;
-   margin-left: 229px;
+  
    
 }
 .butt2{
@@ -231,8 +232,9 @@ width: 100%;
 }
 .databas{
    display: flex;
-justify-content: space-between;
+justify-content: center;
 width: 1170px;
+
 
 }
 .databas p{
@@ -245,6 +247,7 @@ width: 1170px;
 .zagalovk{
 
 width: 45%;
+margin-left: 30px;
 
 }
 
@@ -277,38 +280,153 @@ width: 45%;
    font-size: 14px;
 }
 .foot{
-   display: flex;
- justify-content: center;
- padding: 5%;
- flex-direction: column;
- align-items: center;
+ margin-top: 100px;
 }
 .lastblock{
-   display: flex;
-   justify-content: center;
-   margin-top: 115px;
-   
-   
-   
+   width: 550px;
+display: flex;  
+justify-content: center;
+justify-content: space-between;
+
+
 }
 .s1{
-   margin-right: 30%;
    text-decoration: none;
+   color: #231F20;
 }
+.lastbloc333 {
+   display: flex;
+   justify-content: center;
+}
+
+
 .siz{
    border: 1px solid grey;
-   width: 1000px;
+   width:650px;
    margin-bottom: 55px;
    margin-top: 55px;
+   display: flex;
+   justify-content: center;
+}
+.siz1 {
+   display: flex;
+   justify-content: center;
 }
 .foooot{
    display: flex;
+   justify-content: center;
 
 }
 .foooot p{
    margin-right: 14px;
    margin-top: 72px;
 }
-.lastblock1 a{
-   margin-right: 14px;
+.lastblock1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.lastblock1 {
+   justify-content: space-around;
+   width: 100%;
+}
+
+
+
+@media(max-width:700px){
+footer{
+   max-width: 1140px;
+}
+header{
+   max-width: 1140px;
+}
+main {
+   max-width: 1140px;
+}
+.block555{
+   flex-direction: column;
+   align-items: center;
+   background-color:#f1f1f2;
+}
+.theblock{
+   margin-left: 0;
+}
+
+.block55{
+   flex-direction: column;
+   align-items: center;
+   background-color:#f1f1f2;
+
+}
+
+.hom h1
+{
+   font-size: 25px;
+
+}
+   .hom p {
+      font-size: 14px;
+   }
+.flexs{
+    margin-top: 50px; 
+
+}
+.cards{
+   flex-wrap: wrap;
+   
+}
+.card{
+   margin: auto;
+}
+.rodblock{
+   flex-direction: column;
+   
+}
+.card{
+   margin-top: 20px;
+}
+.hom{
+   max-width: 400px;
+}
+.gifts p{
+   text-align: center;
+}
+.OUR{
+   text-align: center;
+   
+}
+.dochblock img{
+   width: 370px;
+   height: 100%;
+
+}
+.s2{
+
+  justify-content: space-around;
+}
+.databas{
+flex-direction: column;
+
+}
+.zagalovk {
+   margin: auto;
+   margin-top: 35px;
+}
+.lastblock {
+   justify-content: space-around;
+}
+.lastblock1  {
+   justify-content: space-around
+}
+.knopki a{
+   margin-left: 20px;
+   font-size: 8px;
+}
+.log{
+   margin-left: 0px;
+}
+.butt{
+   margin-left: 5px;
+   margin-right: 10px;
+}
 }
